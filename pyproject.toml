@@ -1,0 +1,24 @@
+[project]
+name = "snow"
+version = "0.1.0"
+description = "Snow is an opinionated, functional data visualization library for machine learning experiments and evaluation."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "adjusttext==1.4.0",
+    "cycler>=0.12.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "polars>=2.0.0",
+    "scipy>=1.18.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.ruff]
+line-length = 120
