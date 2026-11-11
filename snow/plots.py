@@ -108,7 +108,7 @@ def boxplot(data: pl.DataFrame, *, x: str, y: str, color: Color = Color.BLUE, **
 
         ax.boxplot(
             [group[y] for group in groups.values()],
-            tick_labels=[str(category) for (category) in groups],
+            tick_labels=[str(category) for (category,) in groups],
             patch_artist=True,
             boxprops={"facecolor": color.value},
             medianprops={"color": Font.COLOR.value},
