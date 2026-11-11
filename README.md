@@ -44,3 +44,7 @@ snow.save(chart, "frontier_scatter_plot.png")
 ```
 
 ![Epoch Capabilities Index over time](examples/frontier_scatter_plot.png)
+
+## Skill
+
+We provide an [agent skill](.agents/skills/plot/SKILL.md) for plotting with snow.
