@@ -33,6 +33,7 @@ lab_colors = snow.ColorBy(
         "Google DeepMind": snow.Color.ORANGE,
         "OpenAI": snow.Color.GREEN,
         "xAI": snow.Color.RED,
+        "Meta AI": snow.Color.PURPLE,
         "Z.ai (Zhipu AI)": snow.Color.BROWN,
         "Moonshot": snow.Color.PINK,
     },

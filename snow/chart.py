@@ -70,7 +70,7 @@ class ColorBy:
         """
 
         palette = cycle(Color)
-        for (category), group in data.group_by(self.column, maintain_order=True):
+        for (category,), group in data.group_by(self.column, maintain_order=True):
             assigned = (self.colors or {}).get(category) or next(palette)
             yield group, {"color": assigned.value, "label": str(category)}
 
